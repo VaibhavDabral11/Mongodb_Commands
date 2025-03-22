@@ -1,4 +1,15 @@
-# Mongodb_Commands
+# Mongodb Installation
+1. Go to the official website of [mongodb](https://www.mongodb.com/try/download/community) and download community comptable version of mongodb for your os. For installing other mongodb tools follow this same website. 
+
+2. Then go to download folder and install mongodb using this given below command:-
+
+```
+sudo dpkg -i mongodb-org-server_8.0.4_amd64.deb  // version according to your os
+sudo systemctl status
+sudo systemctl status mongod
+sudo systemctl start mongod
+```
+# Mongodb Commands
 
 Here's how to create a basic database, a collection (equivalent to a table in relational databases), and insert data into MongoDB.
 
